@@ -1,0 +1,183 @@
+/* CSS RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ======CSS RESET ENDS HERE===== */
+
+/* ======CUSTOM STYLES===== */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+/* ====BODY==== */
+.body {
+    line-height: 1.5;
+}
+/* =====CONTAINER===== */
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+/* ===FLEXBOX=== */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ======HEADER====== */
+.page-header {
+    background-color: #223969;
+    padding: 1em;
+}
+.logo {
+    height: 60px;
+}
+.header-nav a {
+    padding-left: .5em;
+    text-decoration: none;
+    color: #fff;
+    /* text-align: center; */
+    vertical-align: middle;
+}
+.header-nav .bell {
+    padding-right: 1.5em;
+}
+/* ===DASHBOARD NAV=== */
+
+.main-dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 30%;
+    background-color: #A3CAEA;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 12px;
+}
+.dashboard-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dashboard-nav a {
+    color: black;
+    text-decoration: none;
+    padding-left: .5em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 20px;
+}
+.dashboard-nav img {
+    padding-right: .75em;
+}
+.dashboard-nav .dashboard-article {
+    border: 2px solid #E29365;
+    border-radius: 6px;
+    padding-top: .30em;
+}
+.logout {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1em;
+}
+.logout a {
+    color: black;
+    text-decoration: none;
+    padding: 1em 2em 1em .5em;
+    font-size: 20px;
+}
+.logout img {
+    padding-right: .75em;
+}
+
+/*  MAIN ARTICLE */
+.main-content {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F2F8FD;
+    padding: 1em;
+    border-radius: 18px;
+}
+h1 {
+    font-size: 36px;
+    color: #223969;
+}
+.main-content p {
+    font-size: 18px;
+}
+.btn {
+    text-decoration: none;
+    background-color: #44B667;
+    color: #fff;
+    width: fit-content;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+/* =====FOOTER===== */
+.footer {
+    background-color: #223969;
+    height: 10vh;
+    line-height: 10vh;
+}
+.small, .footer-nav a {
+    align-self: center;
+    font-size: 16px;
+    color: #fff;
+}
+.footer-nav a {
+    text-decoration: none;
+    padding: 1em;
+}
