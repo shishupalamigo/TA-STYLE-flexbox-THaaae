@@ -1,0 +1,60 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Section | Flexbox Assignment Level I</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/d77ac583c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="page-header">
+        <a href="#">
+            <img src="assets/media/aCLogo.png" alt="AltCampus logo" class="logo">
+        </a>
+        <nav class="header-nav">
+            <a href="index.html">Home</a>
+            <a href="#" class="green">Gallery</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>GALLERY</h1>
+        <section class="gallery">
+            <div class="row">
+                <img src="assets/media/01.png" alt="Image 1" class="row-image">
+                <img src="assets/media/02.png" alt="Image 2" class="row-image">
+                <img src="assets/media/03.png" alt="Image 3" class="row-image">
+            </div>
+            <div class="row">
+                <img src="assets/media/04.png" alt="Image 4" class="row-image">
+                <img src="assets/media/05.png" alt="Image 5" class="row-image">
+                <img src="assets/media/06.png" alt="Image 6" class="row-image">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <small class="small">&copy;AltCampus</small>
+        <nav class="footer-nav">
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
