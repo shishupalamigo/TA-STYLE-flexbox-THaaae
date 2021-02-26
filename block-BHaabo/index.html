@@ -1,0 +1,98 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Dashboard | Flexbox- Assignment Level II</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/d77ac583c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="page-header">
+      <div class="container flex">
+          <a href="index.html" class="brand">
+              <img src="assets/aCLogo.png" alt="AltCampus Logo" class="logo">
+          </a>
+          <nav class="header-nav">
+              <a href="#" class="bell">
+                  <img src="assets/icons/bell.svg" alt="Bell icon">
+              </a>
+              <a href="#">Sarah Jone
+              </a>
+              <a href="#" id="user-icon">
+                <img src="assets/icons/user.svg" alt="User icon">
+              </a>
+          </nav>
+      </div>
+  </header> 
+  <main class="main">
+      <section class="top-section">
+          <div class="container flex">
+              <aside class="main-dashboard">
+                  <nav class="dashboard-nav">
+                      <a href="#">
+                          <img src="assets/icons/dashboard.svg" alt="">Dashboard
+                      </a>
+                      <a href="#" class="dashboard-article">
+                          <img src="assets/icons/article.svg" alt="">Articles
+                      </a>
+                      <a href="#">
+                          <img src="assets/icons/analytics.svg" alt="">Analytics
+                      </a>
+                      <a href="#">
+                          <img src="assets/icons/inbox.svg" alt="">Inbox
+                      </a>
+                      <a href="#">
+                          <img src="assets/icons/setting.svg" alt="">Settings
+                      </a>                      
+                  </nav>
+                  <nav class="logout">
+                      <a href="#">
+                          <img src="assets/icons/log-out.svg" alt="">Log Out
+                      </a>
+                  </nav>
+              </aside>
+              <article class="main-content">
+                  <img src="assets/01.png" alt="Punch Today In The face" class="content-image">
+                  <h1>Why we are doing AltCampus?</h1>
+                  <p>
+                      AltCampus is an alternative to collage that you wish existed. Currently, we are offering 
+                      an in house, 6-month long program to train people in quality softwere development, where 
+                      they don't have to pay anything untill they are hired.
+                  </p>
+                  <p>
+                      We live in the world of digital skills. These skills are always evolving and so is their 
+                      demand. Students/Professionals who are not responsive to the changes in industry demands, 
+                      in terms of skills, will have a hard time surviving, well at least flourishing.
+                  </p>
+                  <a href="#" class="btn">Read More</a>
+              </article>
+          </div>
+      </section>
+  </main>
+   <footer class="footer">
+       <div class="container flex">
+           <small class="small">&copy;AltCampus</small>
+           <nav class="footer-nav">
+               <a href="#">
+                <i class="fab fa-facebook-square"></i>
+               </a>
+               <a href="#">
+                <i class="fab fa-twitter-square"></i>
+               </a>
+           </nav>
+       </div>
+   </footer>
+</body>
+</html>
