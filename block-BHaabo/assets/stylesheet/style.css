@@ -58,6 +58,7 @@ table {
 /* ====BODY==== */
 .body {
     line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
 }
 /* =====CONTAINER===== */
 
@@ -84,11 +85,13 @@ table {
     padding-left: .5em;
     text-decoration: none;
     color: #fff;
-    /* text-align: center; */
-    vertical-align: middle;
 }
 .header-nav .bell {
     padding-right: 1.5em;
+}
+.header-nav span  {
+    color: #fff;
+    margin-right: 10px;
 }
 /* ===DASHBOARD NAV=== */
 
@@ -97,7 +100,7 @@ table {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    width: 30%;
+    flex: 0 1 30%;
     background-color: #A3CAEA;
     padding: 2em;
     margin: 2em;
@@ -109,21 +112,28 @@ table {
     justify-content: space-between;
 }
 .dashboard-nav a {
-    color: black;
+    color: #223969;
     text-decoration: none;
     padding-left: .5em;
     padding-right: 2em;
     padding-bottom: 1em;
     padding-top: 1em;
     font-size: 20px;
+    font-weight: 700;
+    vertical-align: middle;
 }
-.dashboard-nav img {
+.dashboard-nav a span {
+    vertical-align: middle;
+}
+.dashboard-nav a img {
     padding-right: .75em;
+    vertical-align: middle;
 }
 .dashboard-nav .dashboard-article {
     border: 2px solid #E29365;
     border-radius: 6px;
     padding-top: .30em;
+    color: #E29365;
 }
 .logout {
     background-color: #fff;
@@ -131,18 +141,24 @@ table {
     padding: 1em;
 }
 .logout a {
-    color: black;
+    color: #223969;
     text-decoration: none;
     padding: 1em 2em 1em .5em;
     font-size: 20px;
+    font-weight: 800;
 }
 .logout img {
     padding-right: .75em;
+    vertical-align: middle;
 }
+.logout a span {
+    vertical-align: middle;
+}
+
 
 /*  MAIN ARTICLE */
 .main-content {
-    width: 70%;
+    flex: 0 1 70%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -151,9 +167,14 @@ table {
     padding: 1em;
     border-radius: 18px;
 }
+.main-content img {
+    width: 100%;
+}
 h1 {
     font-size: 36px;
     color: #223969;
+    padding: .5em 0;
+    font-weight: 800;
 }
 .main-content p {
     font-size: 18px;
@@ -165,6 +186,7 @@ h1 {
     width: fit-content;
     padding: 1em 2em;
     border-radius: 4px;
+    margin-top: .5em;
 }
 /* =====FOOTER===== */
 .footer {
