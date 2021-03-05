@@ -120,14 +120,9 @@ table {
     padding-top: 1em;
     font-size: 20px;
     font-weight: 700;
-    vertical-align: middle;
-}
-.dashboard-nav a span {
-    vertical-align: middle;
 }
 .dashboard-nav a img {
     padding-right: .75em;
-    vertical-align: middle;
 }
 .dashboard-nav .dashboard-article {
     border: 2px solid #E29365;
